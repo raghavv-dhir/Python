@@ -7,7 +7,7 @@
 #Class: It's just a blueprint or a template, not a real-world entity
 #Ex: A class "Student" defines what a student has and does
 class Student:
-    def __init__(self, name, age): #Constructor: Automatically runs when an object is created
+    def __init__(self, name, age): #Constructor: Automatically runs when an object is created, it will always be executed by python whether it is defined or not, it will always take "self" parameter
         self.name = name #self: Refers to current object: Must be the 1st parameter
         self.age = age
 
